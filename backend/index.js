@@ -6,9 +6,9 @@ import cors from "cors";
 import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
-import orderRoutes from "./routes/orderRoutes.js";
-import paymentRoutes from "./routes/paymentRoutes.js";
-import analyticsRoutes from "./routes/analyticsRoutes.js";
+// import orderRoutes from "./routes/orderRoutes.js";
+// import paymentRoutes from "./routes/paymentRoutes.js";
+// import analyticsRoutes from "./routes/analyticsRoutes.js";
 
 connectDB();
 

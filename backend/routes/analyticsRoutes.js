@@ -1,6 +1,6 @@
 import {Router} from 'express';
-import protect from '../middleware/authmiddleware';
-import admin from '../middleware/adminmiddleware';
+import protect from '../middleware/authmiddleware.js';
+import admin from '../middleware/adminmiddleware.js';
 import getAdminStats from "../controllers/analyticsController.js";
 
 const router = Router();
