@@ -38,7 +38,7 @@ export const registerUser = async (req, res) => {
 
       await sendEmail({
         email: user.email,
-        subject: 'Welcome to Gadgets-Hub - Your OTP',
+        subject: 'Welcome to Gadgets-Hub - OTP',
         message
       });
 
